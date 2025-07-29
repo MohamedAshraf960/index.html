@@ -1,0 +1,97 @@
+*{
+padding: 40px;
+margin: -5px;
+font-family: 'Segoe UI', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+background-color:rebeccapurple ;
+display: flex;
+justify-content: center;
+}
+
+.container {
+display: flex;
+width: 1000px
+}
+
+.Left-box {
+background-color: #00bcd4;
+color: white;
+flex: 1;
+text-align: justify;
+display: flex;
+flex-direction: column;
+padding: 40px 30px;
+}
+
+.Right-box {
+background-color: white;
+flex: 1;
+text-align: justify;
+display: flex;
+padding: 40px 30px;
+flex-direction: column;
+}
+
+.Left-box h2 {
+font-size: 40px;
+margin-bottom: 0px;
+text-align: center;
+padding: 50px;
+margin-top: 40px;
+}
+
+.Left-box p {
+font-size: 19px
+}
+
+.Right-box {
+padding: 40px 30px;
+flex: 1;
+background: white;
+}
+
+.Right-box h2 {
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 14px;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+form input,form textarea {
+  
+margin-bottom: 17px;
+padding: 16px;
+border: 1px solid ;
+font-size: 14px;
+}
+
+
+form textarea {
+height: 100px;
+}
+
+button {
+background-color: #00bcd4;
+color: white;
+border: none;
+padding: 17px;
+font-size: 15px;
+margin-bottom: 2px;
+}
+
+button {
+background-color: #00bcd4;
+}
+
+
+
+
+
