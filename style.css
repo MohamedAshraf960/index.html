@@ -1,0 +1,120 @@
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #333 !important;
+}
+.hero-section {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  background: url('images/Image\ Placeholder.png') no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.hero-content p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.stats-item h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.stats-item p {
+  font-size: 1rem;
+  color: lightgray;
+}
+.section-title h2 {
+  font-weight: bold;
+}
+.section-title .text-success {
+  color: #28a745 !important;
+}
+.our-mission .card {
+  border-left: 4px solid #28a745;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.why-choose-us .list-group-item {
+  border: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+.card-service {
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.card-service:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-service h5 {
+  font-weight: bold;
+}
+.pricing-table .card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.pricing-table .card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.pricing-table .price {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #28a745;
+}
+.pricing-table .list-group-item {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 0;
+}
+.pricing-table .list-group-item i {
+  margin-right: 10px;
+  color: #28a745;
+}
+.pricing-table .card.premium {
+  border: 2px solid #28a745;
+}
+.pricing-table .card.premium .card-header {
+  background-color: #28a745;
+  color: white;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+  
