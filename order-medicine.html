@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyCare - Order Medicine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <div class="file"><div class="heart"></div></div>
+      <div class="brand-name">my<span>care</span></div>
+    </div>
+
+    <h2 class="title">Order New Medicine</h2>
+
+    <div class="input-group">
+      <label>Medicine Name</label>
+      <input type="text" placeholder="e.g., Panadol, Adol...">
+    </div>
+
+    <div class="input-group">
+      <label>Quantity (Number of packs)</label>
+      <input type="number" min="1" value="1" style="width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #e5e7eb;">
+    </div>
+
+    <div class="input-group">
+      <label>Additional Notes (Optional)</label>
+      <textarea style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;" rows="3" placeholder="Write any notes for the pharmacist..."></textarea>
+    </div>
+
+    <button class="button" onclick="alert('Order sent successfully! You can pick up your medicine from the pharmacy once approved.')">Send Order</button>
+    
+    <br>
+    <a href="patient-options.html" style="color: #666; text-decoration: none; font-size: 14px;">← Back</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Chat - MyCare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .chat-box {
+            border: 1px solid #eee;
+            padding: 15px;
+            height: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #fafafa;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .message {
+            padding: 10px 15px;
+            border-radius: 15px;
+            font-size: 14px;
+            max-width: 85%;
+            line-height: 1.4;
+        }
+        .received {
+            background: #e5e7eb;
+            color: #333;
+            align-self: flex-start;
+            border-bottom-left-radius: 2px; /* Adjusted for LTR */
+        }
+        .sent {
+            background: #2563eb;
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 2px; /* Adjusted for LTR */
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+        }
+        input[type="text"]:focus {
+            border-color: #2563eb;
+        }
+        .button {
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="title">Medical Chat</h2>
+
+    <div class="chat-box" id="chatBox">
+        <div class="message received">How can we help you? MyCare always welcomes you.</div>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="msgInput" placeholder="Type your message here...">
+        <button class="button" onclick="alert('Your message has been sent to the medical team.')">Send</button>
+    </div>
+
+    <br>
+    <a href="patient-options.html" class="back-link">← Back to Options</a>
+</div>
+
+</body>
+</html>
